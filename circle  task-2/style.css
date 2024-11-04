@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container{
+    width: 450px;
+    height: 90px;
+    background-color: green;
+    border-radius: 2PX;
+    /* border-radius: left, top;
+    border-radius: right,top; */
+    
+  
+}
+.circle1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+    border: 10PX solid white;
+    position: relative;
+    top: 50px;
+}
+/* }
+.circle2{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 50px;
+} */
